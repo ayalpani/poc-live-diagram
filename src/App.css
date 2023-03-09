@@ -1,0 +1,38 @@
+html,
+body,
+#root {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.App {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.RealtimeToggleButton {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 20px;
+  z-index: 1;
+
+  display: flex;
+  justify-content: center;
+
+  pointer-events: none;
+}
+
+.RealtimeToggleButton div {
+  cursor: pointer;
+  background: pink;
+  padding: 10px 20px;
+
+  pointer-events: all;
+
+  box-shadow: 5px 5px 0 black;
+}
