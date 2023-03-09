@@ -1,4 +1,3 @@
-# ayalpani-poc-excalidraw-realtime-updates
+# poc-live-diagram
 
 - $ `netlify dev`
-# poc-live-diagram
